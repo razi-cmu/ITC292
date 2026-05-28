@@ -24,7 +24,7 @@ Before you can follow along with the hands-on videos, you need a working Ubuntu 
 1.	Open VirtualBox and click New
 2.	Give your VM a name (e.g., `Ubuntu-SysAdmin`), set Type to `Linux`, OS Distribution to `Ubuntu`, Version to `Ubuntu (64-bit)`.
 3.	Select the Ubuntu ISO you downloaded as the ISO Image.
-4.	Check `Proceed with Unattended Installation` so you can walk through the setup manually.
+4.	Check `Proceed with Unattended Installation`.
 5.	Allocate memory: at least `4 GB RAM recommended (4096 MB)`. Assign `2 CPU cores` if your machine allows.
 6.	Create a virtual hard disk: `25 GB minimum`, VDI format, dynamically allocated.
 7.	Click Finish to create the VM.
