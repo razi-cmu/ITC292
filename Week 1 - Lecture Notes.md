@@ -1,6 +1,6 @@
 # Week 1 - (Setting up the environment + Working with Terminal)
 
-These notes begin with setup instructions for installing Ubuntu in VirtualBox on Windows, then covers the Linux terminal and the essential commands you will use every day as a system administrator.
+These notes begin with setup instructions for installing Ubuntu in VirtualBox on Windows, then cover the Linux terminal and the essential commands you will use every day as a system administrator.
 
 ## Setting Up Your Environment
 Before you can follow along with the hands-on videos, you need a working Ubuntu virtual machine on your Windows computer. This section walks you through the setup in two stages: installing VirtualBox, then installing Ubuntu inside it.
