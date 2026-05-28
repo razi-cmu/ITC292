@@ -265,3 +265,6 @@ This is a slightly more open-ended challenge to test your understanding.
 2.	Copy all `.txt` files from the `notes/` directory into `backup/` using a single `cp` command. (Hint: use `cp notes/*.txt backup/`.)
 3.	Verify the `backup` directory contains the correct files.
 4.	Remove the entire `backup/` directory and its contents using `rm -ri backup/`. The `-i` flag will prompt you for each file..
+
+## References
+- https://tldp.org/LDP/abs/html/basic.html
