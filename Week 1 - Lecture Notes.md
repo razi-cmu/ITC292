@@ -5,9 +5,8 @@ These notes begin with setup instructions for installing Ubuntu in VirtualBox on
 ## Setting Up Your Environment
 Before you can follow along with the hands-on videos, you need a working Ubuntu virtual machine on your Windows computer. This section walks you through the setup in two stages: installing VirtualBox, then installing Ubuntu inside it.
 
-```
-A virtual machine (VM) is a computer running inside your computer. VirtualBox creates a safe, isolated environment where you can install and experiment with Linux without touching your main Windows system.
-```
+> A virtual machine (VM) is a computer running inside your computer. VirtualBox creates a safe, isolated environment where you can install and experiment with Linux without touching your main Windows system.
+
 
 ### Installing VirtualBox
 1.	Go to https://www.virtualbox.org/wiki/Downloads
@@ -39,9 +38,7 @@ A virtual machine (VM) is a computer running inside your computer. VirtualBox cr
 6.	Wait for installation to complete (~15–30 minutes), then click Restart Now.
 7.	When prompted, press Enter to remove the installation medium. Ubuntu will boot to the desktop.
 
-```
-For screenshots and more detail on each step, refer to the official Ubuntu tutorial: https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/.
-```
+> For screenshots and more detail on each step, refer to the official Ubuntu tutorial: https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/.
 
 ## The Linux Terminal
 The terminal (also called the command line or shell) is a text-based interface to your operating system. Instead of clicking icons, you type commands and the system responds with text output. This might feel slower at first, but it becomes dramatically faster and more powerful as you practice and it is the primary tool of every professional system administrator.
