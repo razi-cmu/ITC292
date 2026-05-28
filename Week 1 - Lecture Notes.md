@@ -31,12 +31,12 @@ Before you can follow along with the hands-on videos, you need a working Ubuntu 
 
 ### Install Ubuntu
 1.	Select your VM in VirtualBox and click Start (if it does not start automatically).
-2.	The Ubuntu installer will load.  Select Try or Install Ubuntu.
-3.	Choose Install Ubuntu, select your language and keyboard layout.
-4.	Choose Erase disk and install Ubuntu (this only erases the virtual disk, not your Windows files).
-5.	Set your name, computer name, username, and password.
+2.	The Ubuntu installer will load.  Select Try or Install Ubuntu (if asked).
+3.	Choose Install Ubuntu, select your language and keyboard layout (if asked).
+4.	Choose Erase disk and install Ubuntu (if asked. This only erases the virtual disk, not your Windows files).
+5.	Set your name, computer name, username, and password (if asked).
 6.	Wait for installation to complete (~15–30 minutes), then click Restart Now.
-7.	When prompted, press Enter to remove the installation medium. Ubuntu will boot to the desktop.
+7.	When prompted, press Enter to remove the installation medium. Ubuntu will boot to the desktop (if asked).
 
 > For screenshots and more detail on each step, refer to the official Ubuntu tutorial: https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/.
 
