@@ -460,3 +460,4 @@ PID 16109 uses  45532 KB
 Killing 16109:  45532 KB > 45000 KB
 [1]+  Killed                     ./memory_hog.sh
 ```
+> You can use `ps -p $PID -o vsz --no-headers` to get the virtual memory for a specific PID from `ps`. Here PID is a variable defined and can be named anything.
