@@ -349,7 +349,7 @@ raziiqb+    6955  0.0  0.0  18000  2676 pts/0    S+   15:44   0:00 grep --color=
 
 ## Linux Boot Process Overview
 
-Typically there are six Stages of a boot process in Linux:
+Typically there are six stages of a boot process in Linux:
 
 1. **BIOS / UEFI**: This is the first firmware step when you power on the computer. It runs immediately after pressing the power button and performs hardware checks (POST): CPU, RAM, disk, etc. Then it finds a bootable device (SSD, HDD, USB) and hands control to the bootloader. 
 2. **Bootloader (GRUB2)**: Loads from the disk after BIOS/UEFI and shows a boot menu (if configured). It lets you choose between Linux kernel version, Recovery mode
