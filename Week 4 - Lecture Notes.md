@@ -109,7 +109,7 @@ htop
 
 # 3. Process Snapshot with ps
 
-Unlike `top`, `ps` provides a snapshot of current processes. We talked about this last week but let's briefly look at it again.
+Unlike `top`, `ps` provides a snapshot of current processes. We talked about this last weeks but let's briefly look at it again.
 
 ```bash
 ps aux
