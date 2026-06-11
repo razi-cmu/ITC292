@@ -347,6 +347,19 @@ raziiqb+    6955  0.0  0.0  18000  2676 pts/0    S+   15:44   0:00 grep --color=
 
 > We'll talk more about grep throughout this course.
 
+#### pgrep 
+pgrep is a Linux command used to search for processes by name and return their process IDs (PIDs). It’s basically a shortcut for combining `ps` + `grep`, but cleaner and more precise. Below will search for a process named "firefox" and returns its PID.
+
+```bash
+pgrep firefox
+```
+
+Output:
+```
+1234
+5678
+```
+
 ## Linux Boot Process Overview
 
 Typically there are six stages of a boot process in Linux:
