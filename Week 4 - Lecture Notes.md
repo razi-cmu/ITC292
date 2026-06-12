@@ -474,3 +474,8 @@ Killing 16109:  45532 KB > 45000 KB
 [1]+  Killed                     ./memory_hog.sh
 ```
 > You can use `ps -p $PID -o vsz --no-headers` to get the virtual memory for a specific PID from `ps`. Here PID is a variable defined and can be named anything.
+
+## References
+- The Linux System Administrator's Guide: (Chapter 7, 8)
+- https://www.geeksforgeeks.org/linux-unix/linux-system-monitoring-commands-and-tools/
+- https://www.redhat.com/en/blog/linux-boot-shutdown-systemd
