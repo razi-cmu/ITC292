@@ -299,6 +299,4 @@ Write a Bash script that performs basic log cleanup:
 ## References
 - The Linux System Administrator's Guide — Chapter 12: Backups
 - The Linux System Administrator's Guide — Chapter 15: System Logs
-- https://www.digitalocean.com/community/tutorials — journalctl usage
-- https://www.redhat.com/en/blog — Linux system administration
 - Manual pages: man tar, man cron, man logrotate, man journalctl, man syslog
