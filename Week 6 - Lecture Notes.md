@@ -187,7 +187,7 @@ Configuration: `/etc/rsyslog.conf and /etc/rsyslog.d/*.conf`
 Coexistence: journald collects, rsyslog writes to files.
 
 
-### Viewing Logs — journalctl
+### Viewing Logs using `journalctl`
 `journalctl` is the primary command for viewing journald logs.
 
 Common Usage:
