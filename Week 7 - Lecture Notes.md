@@ -288,7 +288,7 @@ Write a Bash script `network_monitor.sh` that monitors the connectivity of a ser
 - Take server IP address input from console
 - Keep pinging for 100 times
 - Log not only the failure but the successful attempts as well
-- Log count of failures and successes as well. When failure reach 20 times, stop the script.
+- Log count of failures and successes as well. When failures reach 20 times, stop the script.
 
 
 
