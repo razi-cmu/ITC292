@@ -93,7 +93,7 @@ ip addr
 ```
 
 ## Network Manager
-NetworkManager is the modern tool for managing both wired and wireless connections. It provides GUI, CLI, and API interfaces.
+Network Manager is the modern tool for managing both wired and wireless connections. It provides GUI, CLI, and API interfaces.
 
 Key CLI tool: nmcli (Network Manager Command Line Interface)
 
@@ -130,10 +130,11 @@ DNS translates human-readable domain names (e.g., example.com) to IP addresses.
 
 Below are some of the common DNS tools:
 
-Tool	Purpose
-dig	Detailed DNS query tool
-nslookup	Simpler DNS query tool
-host	Quick hostname lookup
+| Tool     | Purpose                   |
+|----------|---------------------------|
+| dig      | Detailed DNS query tool   |
+| nslookup | Simpler DNS query tool    |
+| host     | Quick hostname lookup     |
 
 Let's see some of the examples:
 
