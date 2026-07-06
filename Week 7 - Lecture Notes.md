@@ -172,11 +172,11 @@ Systematic troubleshooting saves time. Follow a layered approach: start at the p
 #### Essential Tools
 | Tool        | Purpose                                                     |
 |------------|-------------------------------------------------------------|
-| ping        | Test basic connectivity (ICMP echo)                         |
-| traceroute  | Show the path packets take to a destination                 |
-| ss          | Show network connections, listening ports (replaces netstat)|
-| tcpdump     | Capture and analyze network packets                         |
-| nmcli       | Manage NetworkManager connections                           |
+| `ping`        | Test basic connectivity (ICMP echo)                         |
+| `traceroute`  | Show the path packets take to a destination                 |
+| `ss`          | Show network connections, listening ports (replaces netstat)|
+| `tcpdump`     | Capture and analyze network packets                         |
+| `nmcli`       | Manage NetworkManager connections                           |
 
 
 #### Examples:
