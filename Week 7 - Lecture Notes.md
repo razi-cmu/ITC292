@@ -132,9 +132,9 @@ Below are some of the common DNS tools:
 
 | Tool     | Purpose                   |
 |----------|---------------------------|
-| dig      | Detailed DNS query tool   |
-| nslookup | Simpler DNS query tool    |
-| host     | Quick hostname lookup     |
+| `dig`      | Detailed DNS query tool   |
+| `nslookup` | Simpler DNS query tool    |
+| `host`     | Quick hostname lookup     |
 
 Let's see some of the examples:
 
