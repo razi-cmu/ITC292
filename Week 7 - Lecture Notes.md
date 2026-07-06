@@ -6,7 +6,7 @@ This week covers two interrelated pillars of system administration: intra-networ
 
 ## Networking Fundamentals
 
-## OSI Model vs TCP/IP Model
+### OSI Model vs TCP/IP Model
 Networking in Linux is built upon the TCP/IP model, which defines how data is transmitted across networks. While the OSI model has seven layers, the TCP/IP model condenses them into four/five layers:
 
 | Feature | OSI Model | TCP/IP Model |
