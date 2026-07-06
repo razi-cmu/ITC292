@@ -213,7 +213,7 @@ tail -f /var/log/syslog | grep -i "fail"         # Monitor for failures only
 ```
 
 
-## Practice Exercise
+## Exercise
 Write a Bash script that automates the backup of a specific directory and implements a cleanup policy to manage disk space.
 
 ### Requirements:
