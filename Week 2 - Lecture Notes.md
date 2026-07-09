@@ -166,6 +166,13 @@ top -o %MEM          # in top, press M for memory sort
 ```
 In the above command `| head 10` is used to show only 10 processes sorted by memory share.
 
+## Practice Exercise
+As a System Administrator, you are required to log certain system activities like the cpu usage, the list of processes utilizing the processor, uptime of the system, the disk usage, and etc. You are required to perform the following activities:
+- Create a snapshot of a system using top command. Make sure to run top command in batch mode with only 1 iteration. Save the first 20 lines into a file named cpu_memory.txt
+- List the processes in descending order of their CPU usage using ps command. Make sure to list all the processes along with services. Save the first 15 lines into a file named processes.txt
+- Save the uptime of the system in uptime.txt. Make sure to only save the uptime in minutes without showing any extra information.
+- Identify the devices that have storage more than 20% and save them to disk_usage.txt.
+
 ## Ungraded Exercises
 
 You can perform these exercises on any Linux system (virtual machine, WSL, or a real Linux installation). Root access is not required for most commands, except for installing tools. Use only terminal commands to complete these exercises.
