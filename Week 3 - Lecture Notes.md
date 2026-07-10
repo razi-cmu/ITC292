@@ -503,6 +503,20 @@ Output:
 ```text
 not running as root
 ```
+## Practice Exercise
+Write a Bash script named process_monitor.sh that:
+- Displays a title "Process Monitor" and a formatted table header.
+- Uses the `ps` command to list all running processes.
+- Uses `awk` to display only processes that:
+	- are not owned by root,
+	- have CPU usage greater than 0%, and
+	- have memory usage greater than 0%.
+- Formats the output into aligned columns showing:
+	- Process ID (PID)
+	- User
+	- CPU Usage
+	- Memory Usage
+- At the end of the output, displays the total number of processes that matched the criteria.
 
 ## Ungraded Exercises
 You can perform these exercises on any Linux system (virtual machine, WSL, or a real Linux installation). Root access is not required for most commands, except for installing tools. Use only scripts to complete these exercises.
