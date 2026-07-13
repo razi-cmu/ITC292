@@ -231,26 +231,6 @@ Enter your age: 20
 You are eligible
 ```
 
-### if...else...fi
-Conditional Statements provide variations as well. If a condition is not true it goes to an else block.
-
-```bash
-#!/bin/bash
-read -p "Enter your name: " name
-
-if [ "$name" = "admin" ]; then
-	echo "Welcome admin"
-else
-	echo "You are not an admin"
-fi
-```
-
-Output:
-```text
-Enter your name: razi
-You are not an admin
-```
-
 You can chain many if elif else statements as per your need.
 
 ### File and Directory Tests
