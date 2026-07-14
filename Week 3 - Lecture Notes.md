@@ -483,7 +483,7 @@ Output:
 ```text
 not running as root
 ```
-## Practice Exercise
+## Exercise
 Write a Bash script named process_monitor.sh that:
 - Displays a title "Process Monitor" and a formatted table header.
 - Uses the `ps` command to list all running processes.
