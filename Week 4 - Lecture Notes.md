@@ -412,6 +412,75 @@ When you power on a Linux system, the boot process (BIOS → bootloader → kern
 
 > Changes take effect the next time you log in. To test immediately, you have to log out and back in.
 
+## Exercise
+Write a bash script named `sys_health.sh` that generates a system health report and saves it to the desktop.
+
+### Requirements
+- Create a report file at `$HOME/Desktop/Sys_Health.txt`.
+- Write three functions:
+- `header_text()`: Writes a header with the username and current date.
+- `disk_usage()`: Checks usage of `/dev/sda2` using `df -h`.
+  - If usage is `≤ 75%`, write: `<usage>% - Normal`
+  - If usage is `> 75%`, write: `<usage>% - Warning: More than 75% disk used`
+- `check_updates()`: Counts pending updates using `apt`.
+  - If updates exist, write: `There are X pending updates. Run 'sudo apt upgrade'`
+  - If no updates, write: `System is up to date`.
+- Call the functions in this order: header_text, disk_usage, check_updates.
+
+### Solution
+```bash
+#!/bin/bash
+
+# Exercise
+
+REPORT="$HOME/Desktop/Sys_Health.txt"
+
+header_text() {
+	if [[ ! -e $REPORT ]]; then
+		touch $REPORT
+	fi
+	echo "====================================" > $REPORT
+	echo "   System Health Report" >> $REPORT
+	echo "   User: $USER" >> $REPORT
+	echo "   Date: $(date '+%Y-%m-%d %H:%M:%S')" >> $REPORT
+	echo "====================================" >> $REPORT
+	echo "" >> $REPORT
+}
+
+disk_usage() {
+	echo "Disk Usage" >> $REPORT
+	echo "----------------------" >> $REPORT
+
+	DISK_USAGE=$(df -h | grep "/dev/sda2" | awk '{print $5+0}')
+
+	if [ "$DISK_USAGE" -le 75 ]; then
+		echo "$DISK_USAGE % - Normal" >> $REPORT
+	else
+		echo "$DISK_USAGE - Warning: More than 75% disk used" >> $REPORT
+	fi
+	echo "" >> $REPORT
+}
+
+check_updates() {
+	echo "Pending Updates" >> $REPORT
+	echo "----------------------" >> $REPORT
+
+	UPDATES=$(apt list --upgradable 2>/dev/null | wc -l)
+	UPDATES=$((UPDATES - 1))
+
+	if [ "$UPDATES" -gt 0 ]; then
+		echo "There are $UPDATES pending updates. Run 'sudo apt upgrade'" >> $REPORT
+	else 
+		echo "System is up to date." >> $REPORT
+	fi
+	echo "" >> $REPORT
+}
+
+header_text
+disk_usage
+check_updates
+```
+
 ## Ungraded Exercises
 You can perform these exercises on any Linux system (virtual machine, WSL, or a real Linux installation). Root access is not required for most commands, except for installing tools. Use only scripts to complete these exercises.
 
