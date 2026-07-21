@@ -367,7 +367,7 @@ echo "Checking user accounts..."
 
 getent passwd | awk -F: '$3 >= 1000 && ($7 == "/bin/bash" || $7 == "/bin/sh") {print $1}' | while read -r user
 do
-	last_change=$(chage -l "$user" | awk -F: '/Last password change/ {print $2}' | xargs)
+	last_change=$(chage -l "$user" | awk -F: '/Last password change/ {print $2}' | xargs) # xargs strips any extra spaces
 	if [ "$last_change" = "never" ]; then
 		echo "$user have never changed their password"
 	else
