@@ -253,7 +253,7 @@ Output:
 -rwxrw-r-- 1 raziiqbal raziiqbal 7 Jun 12 14:17 myscript.sh
 ```
 
-Let's remove read permissions for group and others on `private.txt`
+Let's remove read and write permissions for group and others on `private.txt`
 
 ```bash
 chmod go-rw private.txt
@@ -265,7 +265,7 @@ Output:
 -rw----r-- 1 raziiqbal raziiqbal 7 Jun 12 14:17 private.txt
 ```
 
-We can be explicity with permissions by setting exact permissions: `owner=rw`, `group=r`, `others=none` as below:
+We can be explicit with permissions by setting exact permissions: `owner=rw`, `group=r`, `others=none` as below:
 
 ```bash
 chmod u=rw,g=r,o= file1.txt
