@@ -369,7 +369,7 @@ getent passwd | awk -F: '$3 >= 1000 && ($7 == "/bin/bash" || $7 == "/bin/sh") {p
 do
 	last_change=$(chage -l "$user" | awk -F: '/Last password change/ {print $2}' | xargs)
 	if [ "$last_change" = "never" ]; then
-		echo "$user has never changed their password"
+		echo "$user have never changed their password"
 	else
 		echo "$user: $last_change"
 	fi
