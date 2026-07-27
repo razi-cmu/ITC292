@@ -101,7 +101,7 @@ The `tar` command (Tape ARchive) is one of the most common tools for creating ba
 Creating a backup:
 
 ```bash
-# Create a compressed archive of /home
+# Create a compressed archive of test directory
 tar -czf test-$(date +%Y%m%d).tar.gz test
 ```
 
