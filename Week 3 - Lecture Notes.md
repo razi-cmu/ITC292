@@ -28,7 +28,7 @@ Notes:
 - The shebang (`#!`) must be the first line.
 - Comments start with `#` (except the shebang).
 
-Make it executable. Go to the terminal and navigate to the directory containing this script file, then type:
+Make it executable: Go to the terminal and navigate to the directory containing this script file, then type:
 
 ```bash
 chmod +x hello.sh
