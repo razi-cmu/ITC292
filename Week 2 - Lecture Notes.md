@@ -100,7 +100,7 @@ top
 |-----|--------|
 | `M` | Sort by memory usage (descending) |
 | `P` | Sort by CPU usage (descending) |
-| `k` | Kill a process – will ask for PID and signal number |
+| `k` | Kill a process, will ask for PID and signal number |
 | `r` | Renice (change priority) of a process |
 | `q` | Quit |
 
