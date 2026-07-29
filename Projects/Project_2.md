@@ -6,7 +6,7 @@ You have been handed a Linux virtual machine that a previous system administrato
 
 ### Importing the VM
 
-1. You are provided with a `VM-P2.ova` file.
+1. You are provided with a `VM-P2.ova` file. Download from this [link](https://centralmichigan-my.sharepoint.com/:u:/g/personal/iqbal1r_cmich_edu/IQDv5WFbe59cTKw1ExB12HgUARiUfYhjkCvgfu3Y6mXbTOM?e=nzdFgr)
 2. Download and unzip the assigned `.ova.zip` file.
 3. Open **VirtualBox → File → Import Appliance**.
 4. Select the `.ova` file, click **Next**, then **Import**.
