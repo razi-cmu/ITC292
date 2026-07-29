@@ -484,11 +484,11 @@ check_updates
 ## Ungraded Exercises
 You can perform these exercises on any Linux system (virtual machine, WSL, or a real Linux installation). Root access is not required for most commands, except for installing tools. Use only scripts to complete these exercises.
 
-### Exercise 1: Basic
+### Exercise 1:
 Check disk usage of any folder using `du` making sure that disk sizes are human readable, e.g., 4.0K etc. Sort it in ascending order, e.g., smallest first.
 > Hint: use `| sort -h` to combine the output of the `du` with sort.
 
-### Exercise 2: Intermediate
+### Exercise 2: 
 Use `~/.profile` to append a timestamp to a log file every time you log into the system. This gives you a visible record of your login history, a simple but useful system administration task.
 
 Add a single line to your `~/.profile` that appends a line to a file named `login_history.txt` in your home directory. The line should contain the current date and time in this format:
@@ -499,7 +499,7 @@ Login on: YYYY-MM-DD at HH:MM:SS
 
 Log out and log back in to verify the file is created and contains the login entry.
 
-### Exercise 3: Challenging
+### Exercise 3: 
 You have a process that consumes more and more memory over time (a “memory hog”). You need to automatically kill it when it uses more than 45000 KB of virtual memory. 
 Save the following as `memory_hog.sh` and run it in the background (using `&`). It prints its PID and then slowly consumes memory.
 
