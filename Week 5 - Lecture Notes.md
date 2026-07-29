@@ -379,7 +379,7 @@ done
 ## Ungraded Exercises
 You can perform these exercises on any Linux system (virtual machine, WSL, or a real Linux installation). Root access is not required for most commands, except for installing tools. Use only scripts to complete these exercises.
 
-### Exercise 1: Basic
+### Exercise 1: 
 Create a user with full name, “Steve Jobs” and a home directory `/home/steve`. Make sure to add a password to this user. Create a group called, “Leaders” and make the user “Steve Jobs” part of that group. Feel free to change the shell to `bash`. Login with this new user and do the followings using Linux commands:
 - Create 2 files (f1, f2) on the Desktop of this user using touch command
 - Change the permission of f1 so that only owner can read, write and execute it.
@@ -387,7 +387,7 @@ Create a user with full name, “Steve Jobs” and a home directory `/home/steve
 
 > Hint: use `-c` parameter for adding full name of the user in GECOS field.
 
-### Exercise 2: Intermediate
+### Exercise 2: 
 You are the sysadmin for a small team. Two developers (`dev1`, `dev2`) need to collaborate on a shared project folder. A manager (`mgr`) needs read-only access to review their work. No other users should access this folder.
 
 Perform the following steps:  
@@ -403,7 +403,7 @@ Perform the following steps:
     10. Create a file `file1.txt` in this directory. `dev1` should be able to create a file without any problems. Exit as `dev1` once the file is created.  
     11. Login as `mgr`. You can use `sudo -u mgr bash` for a quick test instead of logging in and out. Trying accessing `file1.txt` inside `/projects/app`. Can `mgr` access it? If no, why? Figure out and fix it so that `mgr` can read this file.
 
-### Exercise 3: Challenging
+### Exercise 3: 
 You are the sysadmin for a small finance team. Two clerks (`clerk1`, `clerk2`) need to collaborate on a shared reports folder. A manager (`finance_manager`) needs read‑only access to review their work. No other users should access this folder. Write a bash script that performs all the following steps automatically. Your script must be saved as `setup_finance.sh` and executed with `sudo`.
 
 Your script must perform the following steps:
