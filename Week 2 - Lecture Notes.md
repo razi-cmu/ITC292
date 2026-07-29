@@ -214,7 +214,7 @@ You can perform these exercises on any Linux system (virtual machine, WSL, or a 
 - Identify the PIDs of both of these background processes using a process tree.
 - Check for the memory space in human readable format and save output of the command in `memory_status.txt` under `audit_logs` using `>`.
 - Run `vmstate` 5 times with a 1 second delay and redirect this output to `system_load.txt` under `audit_logs` using `>`.
-- Verify that both files now exist in the `audit_logs` by display the content of this directory.
+- Verify that both files now exist in the `audit_logs` by displaying the content of this directory.
 - Check the CPU usage of `yes` process.
 - Without killing this process, change the priority of the `yes` process to 10.
 - Observe the change, e.g., `top`.
