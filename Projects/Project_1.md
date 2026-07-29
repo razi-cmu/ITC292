@@ -6,8 +6,8 @@ You have been handed a Linux virtual machine that a previous system administrato
 
 ### Importing the VM
 
-1. You are provided with `VM-P1.ova` file.
-2. Download and unzip the assigned `.ova.zip` file.
+1. You are provided with `VM-P1.ova` file. Download from this [link](https://centralmichigan-my.sharepoint.com/:u:/g/personal/iqbal1r_cmich_edu/IQBvuQGj_hMJSpFC5-2-2ewDAY2a1LC5bTqoBOhyqDt8jek?e=gmuRUj).
+2. Unzip the assigned `.ova.zip` file.
 3. Open **VirtualBox → File → Import Appliance**.
 4. Select the `.ova` file, click **Next**, then **Import**.
 5. Start the VM.
