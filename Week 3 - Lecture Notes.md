@@ -278,7 +278,7 @@ Output:
 ```text
 Fruit: apple
 Fruit: banana
-Fruit: orange
+Fruit: cherry
 ```
 
 for Loop is very handy for iterating over files:
