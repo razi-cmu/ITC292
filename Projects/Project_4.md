@@ -8,7 +8,7 @@ This project is worth **20%** of your final course grade.
 
 ### Importing the VM
 
-1. You are provided with a `VM-P4.ova` file.
+1. You are provided with a `VM-P4.ova` file. Download from this [link](https://centralmichigan-my.sharepoint.com/:u:/g/personal/iqbal1r_cmich_edu/IQBPLnstdaVVR5cjtY-oNvlWAbJ8L2FJPCdN8akb0zMjVZY?e=sCseGi).
 2. Download and unzip the assigned `.ova.zip` file.
 3. Open **VirtualBox → File → Import Appliance**.
 4. Select the `.ova` file, click **Next**, then **Import**.
