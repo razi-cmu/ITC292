@@ -190,14 +190,14 @@ df -h | awk '$5+0 >= 20' > disk_usage.txt
 
 You can perform these exercises on any Linux system (virtual machine, WSL, or a real Linux installation). Root access is not required for most commands, except for installing tools. Use only terminal commands to complete these exercises.
 
-### Exercise 1: Basic
+### Exercise 1:
 
 - Open a terminal window and start a process that runs in the background, such as `sleep 1000 &`. `&` helps in running the command in the background.
 - Use `ps` to find the `PID` (Process ID) of that sleep command.
 - Use the `kill` command to terminate your sleep process.
 - Verify using `ps` command that the process has terminated.
 
-### Exercise 2: Intermediate
+### Exercise 2:
 - Start a simple mathematical loop by running `yes > /dev/null &`. The `yes` command prints 'y' indefinitely by sending it to `/dev/null` in the background e.g., using `&`
 - Run this command to see your process and its current "NI" (Nice) value using this command: `ps -o pid,ni,cmd -p [PID_OF_YES]`. Replace `[PID_OF_YES]` with the process ID of `yes`. "NI" represents the priority of the process. Lower the nicer value, higher the priority.
 - Now, make the process "nicer" (lower priority) so the rest of your system runs better.
@@ -207,8 +207,7 @@ You can perform these exercises on any Linux system (virtual machine, WSL, or a 
 > Note: use `man` command to read the documentation of the commands, e.g., `man ps` shows the documentation of `ps` command. It can be really handy if you dont know how to use a command or what options it offers.
 
 
-### Exercise 3: Challenging
-
+### Exercise 3:
 - Create a directory named `audit_logs` in your current working directory.
 - Launch a background process that generated a heavy system load like running `yes` indefinitely.
 - Launch another background process that sleeps for 1000 seconds.
