@@ -525,7 +525,7 @@ awk '$2!="root" && $3+0 > 0.0 && $4+0 > 0.0 {
 ## Ungraded Exercises
 You can perform these exercises on any Linux system (virtual machine, WSL, or a real Linux installation). Root access is not required for most commands, except for installing tools. Use only scripts to complete these exercises.
 
-### Exercise 1: Basic
+### Exercise 1:
 Create a script `greet.sh` that:
 
 - Accepts a name as an argument
@@ -540,7 +540,7 @@ Hello, <name>! Today is <date>.
 
 > Hint: use `$(date)` to get today's date.
 
-### Exercise 2: Intermediate
+### Exercise 2: 
 Create `backup.sh` that:
 
 - Takes a source directory as the first argument
@@ -558,7 +558,7 @@ backup_YYYY-MM-DD_HH-MM-SS
 
 > Hint: Use this to format the date in YYYY-MM-dd_HH-MM-S format: `$(date "+%Y-%m-%d_%H-%M-%S")`
 
-### Exercise 3: Challenging
+### Exercise 3:
 
 Create a Bash script that:
 
