@@ -172,6 +172,20 @@ As a System Administrator, you are required to log certain system activities lik
 - Save the uptime of the system in uptime.txt. Make sure to only save the uptime in minutes without showing any extra information.
 - Identify the devices that have storage more than 20% and save them to disk_usage.txt.
 
+### Solution
+```bash
+# Save first 20 lines of top output
+top -b -n 1 | head -20 > cpu_memory.txt
+
+# Save first 15 processes sorted by CPU usage
+ps -eo pid,user,comm,%cpu --sort=-%cpu | head -15 > processes.txt
+
+# Save uptime in minutes only
+uptime -p > uptime.txt
+
+df -h | awk '$5+0 >= 20' > disk_usage.txt
+```
+
 ## Ungraded Exercises
 
 You can perform these exercises on any Linux system (virtual machine, WSL, or a real Linux installation). Root access is not required for most commands, except for installing tools. Use only terminal commands to complete these exercises.
