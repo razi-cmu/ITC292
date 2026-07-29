@@ -12,7 +12,7 @@ This project is worth **20%** of your final course grade.
 
 ### Importing the VM
 
-1. You are provided with a `VM_P5.ova` file.
+1. You are provided with a `VM_P5.ova` file. Download from this [link](https://centralmichigan-my.sharepoint.com/:u:/g/personal/iqbal1r_cmich_edu/IQA8D1hF3w9oSbv5431nYGVKAecHK_RDjoQ3oHMG9i_mPj8?e=zjpPpk).
 2. Download and unzip the assigned `.ova.zip` file.
 3. In VirtualBox, go to **File → Import Appliance** and select the `.ova` file.
 4. Confirm the imported VM has two network adapters configured (NAT and Host-only) before powering on. Do not change these settings.
