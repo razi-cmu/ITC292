@@ -35,7 +35,6 @@ pstree
 pstree -p   # shows PIDs as well
 Example output (simplified):
 
-text
 systemd(1)─┬─systemd-journal(312)
            ├─sshd(800)─┬─sshd(1201)───bash(1202)
            ├─cron(850)
