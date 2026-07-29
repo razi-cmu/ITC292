@@ -436,6 +436,7 @@ greet(){
 }
 greet
 ```
+`greet` after defining the function is used to call the function.
 
 Output:
 ```text
