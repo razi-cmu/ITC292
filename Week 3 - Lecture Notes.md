@@ -484,6 +484,8 @@ Output:
 ```text
 not running as root
 ```
+`$EUID` in Linux is a shell variable that contains the Effective User ID (Effective UID) of the current process.
+
 ## Exercise
 Write a Bash script named process_monitor.sh that:
 - Displays a title "Process Monitor" and a formatted table header.
