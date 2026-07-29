@@ -179,7 +179,7 @@ $ mv -i source.txt dest.txt        # -i prompts before overwriting
 `rm` deletes files permanently. There is no Recycle Bin on the Linux command line. Once you run `rm`, the file is gone.
 
 ```bash
-$ rm notes.txt             # deletes a file
+$ rm notes.txt             # delete a file
 $ rm -i notes.txt          # -i asks for confirmation first
 $ rm -r old_projects/      # delete a directory and everything in it
 $ rm -ri old_projects/     # recursive + confirm each file
