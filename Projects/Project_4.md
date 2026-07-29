@@ -104,4 +104,3 @@ You've covered the commands needed to investigate each of these areas across Wee
 
 ---
 
-**Good luck! Treat this as a real production incident on your first day as a system administrator.**
