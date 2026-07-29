@@ -1,7 +1,7 @@
 # Week 5: Managing User Accounts & Linux Permissions
 
 ## Managing User Accounts
-When a computer is used by many people it is usually necessary to differentiate between the users, for example, so that their private files can be kept private. This is important even if the computer can only be used by a single person at a time, as with most microcomputers. Thus, each user is given a unique username, and
+When a computer is used by many people it is usually necessary to differentiate between the users, for example, so that their private files can be kept private. This is important even if the computer can only be used by a single person at a time, as with most public computers. Thus, each user is given a unique username, and
 that name is used to log in. There's more to a user than just a name, however. An account is all the files, resources, and information belonging to one user. 
 
 The Linux kernel itself treats users as mere numbers. Each user is identified by a unique integer, the user id or uid, because numbers are faster and easier for a computer to process than textual names. A separate database outside the kernel assigns a textual name, the username, to each user id. The database contains
