@@ -582,7 +582,7 @@ any other input → print an error message like "Wrong option selected!"
 The menu should keep reappearing after each action until the user chooses Exit (4)
 
 
-# Additional Resources
+# References
 
 - [Bash Guide for Beginners (TLDP)](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
 - [Bash Scripting Fundamentals](https://www.geeksforgeeks.org/linux-unix/bash-scripting-introduction-to-bash-and-bash-scripting/)
