@@ -487,7 +487,7 @@ not running as root
 `$EUID` in Linux is a shell variable that contains the Effective User ID (Effective UID) of the current process.
 
 ## Exercise
-Write a Bash script named process_monitor.sh that:
+Write a Bash script named `process_monitor.sh` that:
 - Displays a title "Process Monitor" and a formatted table header.
 - Uses the `ps` command to list all running processes.
 - Uses `awk` to display only processes that:
@@ -500,6 +500,27 @@ Write a Bash script named process_monitor.sh that:
 	- CPU Usage
 	- Memory Usage
 - At the end of the output, displays the total number of processes that matched the criteria.
+
+### Solution
+```bash
+#!/bin/bash
+
+echo "============ Process Monitor =============="
+
+printf "%-15s %-10s %-15s %-8s\n" "Process ID" "USER" "CPU Usage" "MEM Usage"
+echo "----------------------------------------------------------------"
+
+ps -eo pid,user,pcpu,pmem --no-header | \
+awk '$2!="root" && $3+0 > 0.0 && $4+0 > 0.0 {
+		printf "%-15s %-10s %-15s %-8s\n", $1, $2, $3, $4
+		count++
+	}
+	END {
+		echo ""
+		printf "\nTotal Processes: %d\n", count
+	}
+	'
+```
 
 ## Ungraded Exercises
 You can perform these exercises on any Linux system (virtual machine, WSL, or a real Linux installation). Root access is not required for most commands, except for installing tools. Use only scripts to complete these exercises.
