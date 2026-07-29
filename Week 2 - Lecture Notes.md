@@ -225,3 +225,4 @@ You can perform these exercises on any Linux system (virtual machine, WSL, or a 
 - https://www.geeksforgeeks.org/linux-unix/processes-in-linuxunix/
 - https://www.redhat.com/en/blog/linux-command-basics-7-commands-process-management
 - https://www.linuxfoundation.org/blog/blog/classic-sysadmin-linux-101-5-commands-for-checking-memory-usage-in-linux
+- Manual Pages: `man ps`, `man top`, `man kill`, `man free`
