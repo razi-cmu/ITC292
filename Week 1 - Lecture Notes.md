@@ -179,9 +179,9 @@ $ mv -i source.txt dest.txt        # -i prompts before overwriting
 `rm` deletes files permanently. There is no Recycle Bin on the Linux command line. Once you run `rm`, the file is gone.
 
 ```bash
-$ rm notes.txt             # delete a file
+$ rm notes.txt             # deletes a file
 $ rm -i notes.txt          # -i asks for confirmation first
-$ rm -r old_projects/      # delete a directory and everything in it
+$ rm -r old_projects/      # deletes a directory and everything in it
 $ rm -ri old_projects/     # recursive + confirm each file
 ```
 
@@ -210,7 +210,7 @@ $ echo "more info" >> log.txt    # appends text to a file
 The `>` operator redirects output to a file (overwrites). `>>` appends without overwriting. 
 
 #### clear
-`clear` clears the terminal screen. The keyboard shortcut `Ctrl + L` does the same thing. Your command history is not deleted. Yyou can still press the `Up Arrow` to recall previous commands.
+`clear` clears the terminal screen. The keyboard shortcut `Ctrl + L` does the same thing. Your command history is not deleted. You can still press the `Up Arrow` to recall previous commands.
 
 ### Useful Keyboard Shortcuts
 Learning these shortcuts will save you enormous amounts of time:
@@ -268,3 +268,4 @@ This is a slightly more open-ended challenge to test your understanding.
 
 ## References
 - https://tldp.org/LDP/abs/html/basic.html
+- You can use man pages, e.g., `man ls` for more information about a command.
