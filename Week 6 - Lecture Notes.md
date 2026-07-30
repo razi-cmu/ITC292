@@ -19,7 +19,7 @@ Data loss can happen for many reasons:
 The fundamental principle of backups is simple: A backup is only useful if you can successfully restore from it.
 
 
-### What to Back Up
+### What to Back Up?
 Not all data is equally important. Prioritize your backups:
 
 | Priority | Data Type | Examples |
