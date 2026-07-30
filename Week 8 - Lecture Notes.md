@@ -216,7 +216,7 @@ sudo nft add rule inet filter input drop   # default deny
 | `drop` | `input drop` | Blocks and silently discards packets |
 
 
-# 6. SSH – Fundamentals and Hardening
+# 6. SSH (Secure Shell)
 SSH (Secure Shell) is the cornerstone of remote system administration. Since almost every administrative task relies on SSH, it is the most critical service to secure. We cover both the basics (so you understand what you are hardening) and the hardening measures.
 
 
