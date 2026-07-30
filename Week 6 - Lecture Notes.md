@@ -174,7 +174,7 @@ Common Log Files in `/var/log/`:
 | /var/log/dmesg               | Kernel ring buffer messages     |
 
 ### Modern Logging Systems
-Two Main Components in Modern Linux are using for logging:
+Two Main Components in Modern Linux are used for logging:
 
 #### systemd-journald
 It collects logs from the kernel, system services, and applications. It stores logs in binary format (indexed for fast searching). It is normally integrated with `systemd`. 
