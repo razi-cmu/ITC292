@@ -298,5 +298,5 @@ Write a Bash script that performs basic log cleanup:
 
 ## References
 - The Linux System Administrator's Guide — Chapter 12: Backups
-- The Linux System Administrator's Guide — Chapter 15: System Logs
+- [Linux Log Files](https://help.ubuntu.com/community/LinuxLogFiles)
 - Manual pages: `man tar`, `man cron`, `man logrotate`, `man journalctl`, `man syslog`
