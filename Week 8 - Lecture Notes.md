@@ -295,7 +295,7 @@ VIOLATIONS=0
 OPEN_PORTS=$(ss -4 -tuln | awk 'NR>1 {print $5}' | awk -F: '{print $NF}')
 
 for PORT in $OPEN_PORTS; do
-	if [[ ! " ${APPROVED_PORTS[*]} " =~ " {$PORT} " ]]; then
+	if [[ ! " ${APPROVED_PORTS[*]} " =~ " ${PORT} " ]]; then
 		echo "WARNING: Unauthorized port open: $PORT"
 		echo "Blocking the port with iptables..."
 		sudo iptables -A INPUT -p tcp --dport "$PORT" -j DROP
