@@ -303,7 +303,7 @@ for PORT in $OPEN_PORTS; do
 	fi
 done
 
-if [[ $VIOLATIONS -eq 0 ]]; then
+if [ $VIOLATIONS -eq 0 ]; then
 	echo "OK: All open ports are approved."
 else
 	echo "Security checked failed. Unauthorized ports have been blocked."
